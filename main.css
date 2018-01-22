@@ -1,35 +1,22 @@
-/* Change all elements to use border-box */
-
 html {
     font-size: 16px;
     box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-
-
-/***************************
-****************************
-Base Styles
-****************************
-***************************/
-
 body {
     color: #414042;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-
 h1,
 h2,
 h3 {
     font-weight: bold;
 }
-
 a {
     color: #8DC63F;
     font-weight: bold;
@@ -38,18 +25,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-/*768px / 16 = 48em*/
-
-
-/* 992px / 16 =62em */
-
-
-/*
- *tag module
-*/
-
 .tag-g {
     border-top: solid 4px #8DC63F;
 }
@@ -117,17 +92,6 @@ a:hover {
     background: #F7941E;
     opacity: 0.6;
 }
-
-
-/***************************
-****************************
-Layout Styles
-****************************
-***************************/
-
-
-/* Content Container*/
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -135,18 +99,10 @@ Layout Styles
     margin-left: auto;
     max-width: 1170px;
 }
-
-
-/* Row */
-
 .row {
     margin-right: -15px;
     margin-left: -15px;
 }
-
-
-/* Row Clear Float*/
-
 .row:after {
     content: "";
     display: table;
@@ -158,9 +114,6 @@ Layout Styles
     padding-left: 15px;
     padding-right: 15px;
 }
-
-
-/* Media Query excludes extra small devices and includes small and above */
 
 @media only screen and (min-width: 48em) {
     [class*='col-'] {
@@ -210,18 +163,11 @@ Layout Styles
         border-top: solid 1px #fff;
     }
 }
-
-
-/***************************
-Bg-Image Modules
-***************************/
-
 .bg-image {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 .bg-image>img {
     width: 100%;
     position: absolute;
@@ -231,12 +177,6 @@ Bg-Image Modules
     right: -9999px;
     margin: auto;
 }
-
-
-/***************************
-Button Modules
-***************************/
-
 .btn {
     display: inline-block;
     text-align: center;
@@ -301,12 +241,6 @@ Button Modules
     background-color: #fff;
     color: #39b54a;
 }
-
-
-/***************************
-Header
-***************************/
-
 .header-primary {
     background: #9B8579;
     text-align: center;
@@ -327,12 +261,6 @@ Header
         clear: both;
     }
 }
-
-
-/***************************
-Hero Modules
-***************************/
-
 .hero {
     text-align: center;
 }
@@ -374,12 +302,6 @@ Hero Modules
 .hero-subtitle+button {
     margin-top: 25px;
 }
-
-
-/***************************
-Logo Modules
-***************************/
-
 .logo {
     overflow: hidden;
     display: inline-block;
@@ -401,12 +323,6 @@ Logo Modules
 .logo-primary img {
     height: 100%;
 }
-
-
-/***************************
-Media Modules
-***************************/
-
 .media,
 .media-body {
     overflow: hidden;
@@ -520,12 +436,6 @@ Media Modules
         padding: 20px 20px 10px 0;
     }
 }
-
-
-/***************************
-Nav Modules
-***************************/
-
 .nav>ul {
     list-style: none;
     padding: 0px;
@@ -547,12 +457,6 @@ Nav Modules
         display: inline-block;
     }
 }
-
-
-/*
- * module footer
-*/
-
 .footer-primary {
     color: #9b8579;
     padding-top: 20px;
@@ -640,14 +544,6 @@ Nav Modules
         padding-top: 15px;
     }
 }
-
-
-/***************************
-****************************
-Theme Styles
-****************************
-***************************/
-
 .background-primary {
     background: #F7941E;
 }
