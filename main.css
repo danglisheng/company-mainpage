@@ -171,6 +171,7 @@ a:hover {
 }
 .bg-image>img {
     width: 100%;
+    min-height:100%;
     position: absolute;
     top: -9999px;
     bottom: -9999px;
